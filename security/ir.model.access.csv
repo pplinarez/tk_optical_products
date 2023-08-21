@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tk_optical_products_tk_type,tk_optical_products.tk.type,tk_optical_products.model_tk_type,base.group_user,1,1,1,1
+access_tk_optical_products_tk_material,tk_optical_products.tk.material,tk_optical_products.model_tk_material,base.group_user,1,1,1,1
+access_tk_optical_products_tk_rim,tk_optical_products.tk.rim,tk_optical_products.model_tk_rim,base.group_user,1,1,1,1

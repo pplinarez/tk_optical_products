@@ -1,0 +1,69 @@
+<odoo>
+    <data>
+      <record id="tk_optical_type1" model="tk.type">
+        <field name="name">Sun</field>
+        <field name="description">Sun Eyeglasses</field>
+      </record>
+
+      <record id="tk_optical_type2" model="tk.type">
+        <field name="name">Contact</field>
+        <field name="description">Contact glasses</field>
+      </record>
+
+      <record id="tk_optical_type3" model="tk.type">
+        <field name="name">Optical</field>
+        <field name="description">Optical glasses</field>
+      </record>
+
+      <record id="tk_optical_type4" model="tk.type">
+        <field name="name">Lens</field>
+        <field name="description">Optical Lens</field>
+      </record>
+
+      <record id="tk_glasses_material1" model="tk.material">
+        <field name="name">Metal</field>
+        <field name="description">Metal Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material2" model="tk.material">
+        <field name="name">Acetate</field>
+        <field name="description">Acetate Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material3" model="tk.material">
+        <field name="name">Metal/Acetate</field>
+        <field name="description">Metal and Acetate Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material4" model="tk.material">
+        <field name="name">Injected</field>
+        <field name="description">Injected Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material5" model="tk.material">
+        <field name="name">Titanium</field>
+        <field name="description">Titanium Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material6" model="tk.material">
+        <field name="name">Optyl</field>
+        <field name="description">Sun Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material7" model="tk.material">
+        <field name="name">Wood</field>
+        <field name="description">Wood Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material8" model="tk.material">
+        <field name="name">Buffalo Horn</field>
+        <field name="description">Buffalo Horn Eyeglasses</field>
+      </record>
+
+      <record id="tk_glasses_material9" model="tk.material">
+        <field name="name">Gold</field>
+        <field name="description">Gold Eyeglasses</field>
+      </record>
+
+    </data>
+</odoo>

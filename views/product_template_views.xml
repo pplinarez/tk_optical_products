@@ -1,0 +1,40 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="TKOptical_views_1">
+      <field name="name">TKoptical_add_fields </field>
+      <field name="model">product.template</field>
+      <field name="inherit_id" ref="product.product_template_only_form_view" />
+      <field name="arch" type="xml">
+      <xpath expr="//group[@name='group_general']" position="inside">
+          <field name="is_optical"/>
+      </xpath>
+        <xpath expr="//group[@name='group_general']" position="after">
+          <group string="Lens information" attrs = "{'invisible': [('is_optical', '=', False)]} ">  
+            <field name="typeg" attrs = " {'invisible': [('is_optical', '=', False)]} "/>
+            <field name="stylename" attrs = " {'invisible': [('is_optical', '=', False)]} "/>
+            <field name="size" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            <field name="material" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            <field name="rim" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            <field name="product_brand_id" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+          </group>
+        </xpath>
+      </field>
+    </record>
+
+        <record model="ir.ui.view" id="TKOptical_views_2">
+      <field name="name">TKPharmacy_optical_fields </field>
+      <field name="model">product.template</field>
+      <field name="inherit_id" ref="product.product_template_only_form_view" />
+      <field name="arch" type="xml">
+        <xpath expr="//group[@name='group_standard_price']" position="after">
+          <group string="General information" attrs = "{'invisible': [('is_optical', '=', False)]} ">
+            <field name="color" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            <field name="country_id" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            <field name="gender" attrs = "{'invisible': [('is_optical', '=', False)]} "/>
+            </group>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
